@@ -1,0 +1,1 @@
+fastapi>=0.104.1\nuvicorn>=0.24.0\nopenai>=1.0.0\nanthropic>=0.8.0\npython-dotenv>=1.0.0
