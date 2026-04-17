@@ -1,0 +1,1 @@
+from fastapi import FastAPI\n\napp = FastAPI(title="SoundSync AI API", description="AI-first music marketing agency API", version="0.1.0")\n\n@app.get("/")\nasync def root():\n    return {"message": "Welcome to SoundSync AI"}\n\n@app.get("/health")\nasync def health():\n    return {"status": "ok"}
